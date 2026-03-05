@@ -45,6 +45,16 @@ p {
   margin: 24px 0;
 }
 
+/* links inside callout */
+.callout a {
+  color: #8b6340;
+  text-decoration: underline;
+}
+
+.callout a:hover {
+  color: #ddd8c4;
+}
+
 /* choice links */
 .choices {
   display: flex;
