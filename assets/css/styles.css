@@ -1,11 +1,70 @@
-/* styles.css */
+/* ── NINE LIVES — styles.css ── */
+
+body {
+  background-color: #111610;
+  color: #ddd8c4;
+  font-family: 'VT323', monospace;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
 
 h1 {
-	font-size: 20em;
-	color: hotpink;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 1.2rem;
+  color: #7a9464;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.6rem;
+  color: #6b7a5e;
+  letter-spacing: 0.1em;
+  margin-bottom: 40px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #2e3d28;
+  margin: 32px 0;
 }
 
 p {
-	font-size: 7em;
-	color: magenta;
+  margin-bottom: 20px;
+}
+
+/* bold highlighted moment */
+.callout {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.6rem;
+  color: #7a9464;
+  line-height: 2;
+  margin: 24px 0;
+}
+
+/* choice links */
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 32px;
+}
+
+.choices a {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.55rem;
+  color: #ddd8c4;
+  text-decoration: none;
+  border: 1px solid #2e3d28;
+  padding: 14px 18px;
+  display: block;
+  letter-spacing: 0.06em;
+}
+
+.choices a:hover {
+  color: #7a9464;
+  border-color: #7a9464;
 }
